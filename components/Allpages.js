@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 // import Home from './Home';
-import Shopping from './Shopping';
+// import Shopping from './Shopping';
 // import Cart from './Cart'
-// import Payment from './Payment'
+import Payment from './Payment'
 
 
 
@@ -11,9 +11,9 @@ export default function Allpages() {
   return (
     <View style={styles.container}>
       {/* <Home/> */}
-      <Shopping/>
-      {/* <Cart/>
-      <Payment/> */}
+      {/* <Shopping/> */}
+      {/* <Cart/> */}
+      <Payment/>
     </View>
   );
 }
